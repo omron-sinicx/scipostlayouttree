@@ -2,7 +2,7 @@
 
 This repository contains the supplementary code for our paper:
 
-> **"SciPostLayoutTree: A Dataset for Structural Analysis of Scientific Posters"**
+> **"[SciPostLayoutTree: A Dataset for Structural Analysis of Scientific Posters](https://arxiv.org/abs/2511.18329)"**
 
 ---
 
@@ -203,5 +203,28 @@ wandb init
 | `projects/relation/modeling/gtbbox_relation_predictor.py` | Full Layout Tree Decoder implementation |
 | `projects/relation/configs/*.py` | Configuration files per backbone |
 | `configs/common/data/tree_evaluator.py` | Compute STEDS, REDS, and TED |
+
+---
+
+## License
+
+This project is released under the [Apache 2.0 license](LICENSE).
+
+---
+
+## Citation
+If you use our code in your research or wish to refer to the baseline results published here, please use the following BibTeX entries:
+
+```BibTeX
+@misc{tanaka2025scipostlayouttreedatasetstructuralanalysis,
+      title={SciPostLayoutTree: A Dataset for Structural Analysis of Scientific Posters}, 
+      author={Shohei Tanaka and Atsushi Hashimoto and Yoshitaka Ushiku},
+      year={2025},
+      eprint={2511.18329},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.18329}, 
+}
+```
 
 ---

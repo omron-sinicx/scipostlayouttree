@@ -1,0 +1,6 @@
+.openai_apikey
+.google_apikey
+.anthropic_apikey
+fewshot_jsonl/
+*pred*/
+__pycache__/
